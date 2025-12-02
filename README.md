@@ -1,4 +1,5 @@
 # RadToolbox.ahk
+
 AutoHotkey v1 script that adds AI-assisted tools to Nuance PowerScribe 360 and Epic Hyperspace style text boxes using only keystrokes and clipboard operations (no vendor SDK).
 
 ## Features
@@ -12,12 +13,12 @@ AutoHotkey v1 script that adds AI-assisted tools to Nuance PowerScribe 360 and E
 - Startup EULA, portable config under `%AppData%\AI_Tools_Demo\settings.ini`.
 
 ## Requirements
-- AutoHotkey v1 (32-bit recommended for the embedded JSON library).
+- AutoHotkey v1 (32-bit recommended for the embedded JSON library). Download from the official archive: https://www.autohotkey.com/download/1.1/
 - Access to PowerScribe 360 (window title should match `PowerScribe 360 | Reporting`) or Epic Hyperspace.
 - API key for OpenAI or Azure OpenAI; Ollama supported without a key when running locally.
 
 ## Setup
-1) Place `RadToolbox.ahk` on the workstation with AutoHotkey v1 installed.  
+1) Install AutoHotkey v1 from the official archive (link above), then place `RadToolbox.ahk` on the workstation.  
 2) Run the script; accept the startup disclaimer.  
 3) Open Preferences to set Provider, Endpoint, Model, and API Key (if needed).  
 4) Verify the PowerScribe window title matches the default; adjust `PowerScribeWindowTitle` in the script if your site differs.
